@@ -13,3 +13,9 @@ For writing, red dots are being added in a set of already existing red dots.
 The positions of the red dots have been related to the position of the contour.
 In each progressing frame, new larger set of red dots is drawn.
 You would need to tune some parameters in the code according to the ambient light conditions and your skin color.
+
+the screen is being cleared by waving hand.
+For this mask of palm color is being used.
+When the exposed area of palm is greater than a given value the set of red dots is being emptied and in next frame there is no red dots.
+Part of palm is always exposed and sometimes may exceed the given value.
+Therefore, the value should be set carefully.
